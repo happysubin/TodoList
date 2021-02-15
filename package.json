@@ -1,0 +1,29 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happysubin/TodoList.git"
+  },
+  "author": "subin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happysubin/TodoList/issues"
+  },
+  "homepage": "https://github.com/happysubin/TodoList#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/node": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "body-parser": "^1.19.0",
+    "core-js": "^3.8.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.0"
+  }
+}
