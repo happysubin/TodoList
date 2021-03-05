@@ -7,6 +7,6 @@ const toDoSchema = mongoose.Schema({
   },
 });
 
-const model = mongoose.model("ToDo", toDoSchema);
+const model = mongoose.model("ToDo", toDoSchema); //ToDo가 todo로 바뀐것일까?
 
 export default model;
